@@ -17,7 +17,6 @@ cat > "$TMP/door-notice.tex" <<LATEX
 \usepackage[a4paper,landscape,top=0cm]{geometry}
 %\usepackage{german}
 %\usepackage[babel,german=quotes]{csquotes}
-\usepackage{csquotes}
 \pagestyle{empty}
 
 \newcommand{\announce}[2]{
