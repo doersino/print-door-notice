@@ -14,7 +14,7 @@ TMP="$(mktemp -d)"
 cat > "$TMP/door-notice.tex" <<LATEX
 \documentclass[extrafontsizes,36pt]{memoir}
 \usepackage[T1]{fontenc}
-\usepackage[a4paper,landscape,top=0cm]{geometry}
+\usepackage[a4paper,landscape,top=0cm,left=3cm,right=3cm]{geometry}
 %\usepackage{german}
 %\usepackage[babel,german=quotes]{csquotes}
 \pagestyle{empty}
